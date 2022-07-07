@@ -44,6 +44,16 @@
 	<link rel="stylesheet" href="style.css">
 
 	<!-- Javscript -->
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "d5eaa8c7-2b53-4b69-825b-013ef3ad803d",
+    });
+  });
+</script>	 
+	 
 	<script>
 		if ("serviceWorker" in navigator) {
 			window.addEventListener("load", () => {
